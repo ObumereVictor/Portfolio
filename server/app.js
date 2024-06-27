@@ -10,7 +10,7 @@ app.get("/", (request, response, next) => {
   );
   response.writeHead(200, {
     "Content-Type": "application/blob",
-    "Content-Disposition": "attachment; filename=VICTORScv.pdf",
+    "Content-Disposition": "attachment; filename=VICTOR'S_resume.pdf",
     "Content-Transfer-Encoding": "Binary",
     "Access-Control-Allow-Origin": "https://victor-obumere-dev.onrender.com/",
   });
