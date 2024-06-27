@@ -6,13 +6,13 @@ const port = 3001;
 
 app.get("/", (request, response, next) => {
   const src = fs.createReadStream(
-    path.resolve(__dirname, "./Victor-Obumere-CV.pdf")
+    path.resolve(__dirname, "./Victor_Obumere_Resume.pdf")
   );
   response.writeHead(200, {
     "Content-Type": "application/blob",
     "Content-Disposition": "attachment; filename=VICTORScv.pdf",
     "Content-Transfer-Encoding": "Binary",
-    "Access-Control-Allow-Origin": "https://victor-obumere.netlify.app/",
+    "Access-Control-Allow-Origin": "https://victor-obumere-dev.onrender.com/",
   });
 
   src.pipe(response);

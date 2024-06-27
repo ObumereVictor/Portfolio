@@ -68,7 +68,7 @@ const Home = () => {
           <a
             className="resume"
             href="https://api-victor-obumere-jg5b.onrender.com"
-            download={"Victor-Obumere-CV.pdf"}
+            download={"Victor_Obumere_Resume.pdf"}
           >
             Resume
           </a>
@@ -144,12 +144,12 @@ const Home = () => {
       {/* CONTACT */}
       <section className="contact" id="contact">
         <h1>CONTACT</h1>
-        <a href="mailto:alternatecode@hotmail.com">Email Me</a>
+        <a href="mailto:obumerevictor@gmail.com">Email Me</a>
       </section>
 
       {/* FOOTER */}
       <footer>
-        <h3>Created by ALTCODE</h3>
+        <h3>Created by ObumereVictor(ALTCODE)</h3>
       </footer>
       {showSideBar && <SideBar handleHideSideBar={handleHideSideBar} />}
     </main>
